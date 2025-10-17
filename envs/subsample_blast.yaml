@@ -1,0 +1,12 @@
+# subsample_blast.yaml
+## Conda environment for the subsample and blast tasks
+
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - seqtk=1.4
+  - blast=2.14
+  - python=3.10
+  - pandas=2.1
+

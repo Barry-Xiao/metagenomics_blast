@@ -1,0 +1,19 @@
+# config.yaml
+## This file contains the cnofiguration settings for the Snakemake pipeline
+
+
+# input data folder
+## input files (.fastq.gz) were in this folder
+input_folder: "input_data"
+
+# parameters for subsample
+
+## subsample reads from the original fastq
+subsample_reads: 5
+
+# parameters for blast database
+remote_db: 'nt'
+
+
+# pipeline options
+keep_intermediate: True
